@@ -64,7 +64,7 @@ public class A_Plus_B extends ConsoleProgram {
 		}
 		
 	}}
-	println ("a = " + lastArray[index].getyrA() + " b = "+ lastArray[index].getB()+ "TESSSSSSSSSSST");
+	println ("a = " + lastArray[index].getA() + " b = "+ lastArray[index].getB()+ "TESSSSSSSSSSST");
 		
 	}
 	
