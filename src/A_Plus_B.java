@@ -24,7 +24,7 @@ public class A_Plus_B extends ConsoleProgram {
 		int [][]newArray = new int [n][n];
 		for (a = 0; a <n; a++){
 			for (b = 0; b<n; b++){
-			if (5*a - 2*b==n){
+			if (5*a * 2*b==n){
 				
 			  newArray[j][k]=a;	
 			  k++;
