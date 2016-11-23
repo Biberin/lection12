@@ -63,7 +63,7 @@ public class A_Plus_B extends ConsoleProgram {
 		}
 		
 	}}
-	println ("a = " + lastArray[index].getA() + " b = "+ lastArray[index].getB());
+	println ("a = " + lastArray[index].getA() + " b = "+ lastArray[index].getB()+ "TESSSSSSSSSSST");
 		
 	}
 	
