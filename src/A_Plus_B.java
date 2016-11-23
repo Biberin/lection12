@@ -21,7 +21,7 @@ public class A_Plus_B extends ConsoleProgram {
 /*создаем массив размером n и 
 методом перебора присваиваем первым его ячейкам все подходящие значения а и б*/
 		
-		int [][]newArray = new int [n][2];
+		int [][]newArray = new int [n][n];
 		for (a = 0; a <n; a++){
 			for (b = 0; b<n; b++){
 			if (5*a - 2*b==n){

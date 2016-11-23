@@ -1,8 +1,8 @@
 
 public class Numbers {
-	private  int a;
-	private  int b;
-	private  int sum;
+	private static int a;
+	private static int b;
+	private static int sum;
 	public Numbers (){
 		this.setA(a);
 		this.setB(b);
@@ -10,22 +10,22 @@ public class Numbers {
 	}
 	
 	
-	public  int getSum() {
+	public static int getSum() {
 		return sum;
 	}
 
 
-	public  int getA() {
+	public static int getA() {
 		return a;
 	}
-	public  void setA(int a) {
-		this.a = a;
+	public static void setA(int a) {
+		Numbers.a = a;
 	}
-	public  int getB() {
+	public static int getB() {
 		return b;
 	}
-	public  void setB(int b) {
-		this.b = b;
+	public static void setB(int b) {
+		Numbers.b = b;
 	}
 
 }
